@@ -1,0 +1,19 @@
+{
+  "itemGroup.lluviamagica": "Magic Rain",
+  "item.lluviamagica.cotton_candy_pink": "Pink Cotton Candy",
+  "item.lluviamagica.cotton_candy_blue": "Blue Cotton Candy",
+  "item.lluviamagica.gummy_red": "Red Gummy",
+  "item.lluviamagica.gummy_green": "Green Gummy",
+  "item.lluviamagica.gummy_yellow": "Yellow Gummy",
+  "item.lluviamagica.gummy_purple": "Purple Gummy",
+  "item.lluviamagica.magic_rain_wand": "Magic Rain Wand",
+  "message.lluviamagica.started": "The Magic Rain has begun!",
+  "message.lluviamagica.ended": "The Magic Rain has ended.",
+  "message.lluviamagica.already_active": "It is already raining magic.",
+  "message.lluviamagica.only_overworld": "The wand only works in the Overworld.",
+  "command.lluviamagica.start": "Magic Rain started for %s seconds.",
+  "command.lluviamagica.stop": "Magic Rain stopped.",
+  "command.lluviamagica.not_active": "There is no active Magic Rain.",
+  "command.lluviamagica.status_active": "Magic Rain active: %s seconds left.",
+  "command.lluviamagica.status_inactive": "The Magic Rain is not active."
+}

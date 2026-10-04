@@ -1,0 +1,19 @@
+{
+  "itemGroup.lluviamagica": "Lluvia Mágica",
+  "item.lluviamagica.cotton_candy_pink": "Algodón de azúcar rosa",
+  "item.lluviamagica.cotton_candy_blue": "Algodón de azúcar azul",
+  "item.lluviamagica.gummy_red": "Gominola roja",
+  "item.lluviamagica.gummy_green": "Gominola verde",
+  "item.lluviamagica.gummy_yellow": "Gominola amarilla",
+  "item.lluviamagica.gummy_purple": "Gominola morada",
+  "item.lluviamagica.magic_rain_wand": "Varita de lluvia mágica",
+  "message.lluviamagica.started": "¡Ha empezado la Lluvia Mágica!",
+  "message.lluviamagica.ended": "La Lluvia Mágica ha terminado.",
+  "message.lluviamagica.already_active": "Ya está lloviendo magia.",
+  "message.lluviamagica.only_overworld": "La varita solo funciona en el Overworld.",
+  "command.lluviamagica.start": "Lluvia Mágica iniciada durante %s segundos.",
+  "command.lluviamagica.stop": "Lluvia Mágica detenida.",
+  "command.lluviamagica.not_active": "No hay ninguna Lluvia Mágica activa.",
+  "command.lluviamagica.status_active": "Lluvia Mágica activa: quedan %s segundos.",
+  "command.lluviamagica.status_inactive": "La Lluvia Mágica no está activa."
+}
