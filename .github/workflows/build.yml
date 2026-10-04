@@ -21,9 +21,16 @@ jobs:
           gradle-version: 8.1.1
 
       - name: Build
-        run: gradle build --no-daemon
+        run: |
+          SETTINGS=$(find . -name settings.gradle -not -path './.git/*' | head -n 1)
+          if [ -z "$SETTINGS" ]; then
+            echo "No se encuentra settings.gradle en el repositorio. Faltan archivos del mod."
+            exit 1
+          fi
+          cd "$(dirname "$SETTINGS")"
+          gradle build --no-daemon
 
       - uses: actions/upload-artifact@v4
         with:
           name: lluvia-magica-jar
-          path: build/libs/*.jar
+          path: "**/build/libs/*.jar"
